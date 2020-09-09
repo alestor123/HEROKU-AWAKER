@@ -4,6 +4,13 @@ var { spawn } = require('child_process'),
     axios = require('axios');
     url = process.argv[2],
 time = process.argv[3];
+if (!time || !url) {
+    console.log(`
+    Invalid command.
+    Usage: heroku-awaker <url> <time:minutes>  
+  `);
+}
+else{
 setInterval(
     function(){  
 axios.get(url)
@@ -17,3 +24,4 @@ axios.get(url)
 })
 }
 ,time*1000)
+}
