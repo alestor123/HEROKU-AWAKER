@@ -4,8 +4,7 @@
   "description": "",
   "main": "App.js",
   "dependencies": {
-    "axios": "^0.20.0",
-    "meow": "^7.1.1"
+    "axios": "^0.20.0"
   },
   "devDependencies": {},
   "scripts": {
