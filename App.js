@@ -17,7 +17,7 @@ setInterval(
 axios.get(url)//getting url
 .then(function() {
   // handle success
-  console.log('awaking');
+  console.log(`awaking`);
 })
 .catch(function (error) {
   // handle error
