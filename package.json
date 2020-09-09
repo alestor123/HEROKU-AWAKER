@@ -1,0 +1,24 @@
+{
+  "name": "heroku-awaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "meow": "^7.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alestor123/HEROKU-AWAKER.git"
+  },
+  "author": "Alestor Aldous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alestor123/HEROKU-AWAKER/issues"
+  },
+  "homepage": "https://github.com/alestor123/HEROKU-AWAKER#readme"
+}
