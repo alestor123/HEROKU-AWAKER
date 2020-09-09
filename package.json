@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "App.js",
+  "bin": {
+    "heroku-awaker": "App.js"
+  },
   "dependencies": {
     "axios": "^0.20.0"
   },
