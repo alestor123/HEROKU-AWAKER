@@ -2,9 +2,14 @@
 //setting bash
 // importing modules 
 var { spawn } = require('child_process'),
+    pjson = require('./package.json'),  
     axios = require('axios');
     url = process.argv[2], //getting args
 time = process.argv[3];
+if(url=='-v' || url=='--version'){
+  console.log( `${pjson.version}`)
+process.exit(1);
+}
 if (!time || !url) { // checking undifined args
     console.log(`
     Invalid command.
