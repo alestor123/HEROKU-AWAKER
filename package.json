@@ -1,7 +1,7 @@
 {
   "name": "heroku-awaker",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a simple heroku awaker app using axios",
   "main": "App.js",
   "bin": {
     "heroku-awaker": "App.js"
