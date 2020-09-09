@@ -6,6 +6,10 @@ var { spawn } = require('child_process'),
     axios = require('axios');
     url = process.argv[2], //getting args
 time = process.argv[3];
+if(url=='-i' || url=='--issue'){
+  console.log( `report issues on this github issue page > ${pjson.bugs.url}`)
+process.exit(1);
+}
 if(url=='-v' || url=='--version'){
   console.log( `${pjson.version}`)
 process.exit(1);
