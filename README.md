@@ -17,4 +17,20 @@ alt=issues >
 
 ``npm i heroku-awaker``
 
-# 
+# Usage 
+
+``heroku-awaker <url> <time:min>``
+
+# Example 
+
+``heroku-awaker http://myapp.herokuapp.com/ 2``
+
+# In Detail
+
+## This is a simple code using js for awaking heroku app the time set will be the interval time.
+
+# Author 
+
+# Alestor Aldous
+
+# LIC MIT
