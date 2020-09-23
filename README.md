@@ -14,7 +14,7 @@
 
 # Installation
 
-``npm i heroku-awaker``
+``npm i -g heroku-awaker``
 
 # Usage 
 
